@@ -81,6 +81,7 @@ namespace Disconnected_Environment
             this.dataProdiToolStripMenuItem.Name = "dataProdiToolStripMenuItem";
             this.dataProdiToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.dataProdiToolStripMenuItem.Text = "Data Prodi";
+            this.dataProdiToolStripMenuItem.Click += new System.EventHandler(this.dataProdiToolStripMenuItem_Click_1);
             // 
             // dataMahasiswaToolStripMenuItem
             // 
@@ -102,7 +103,6 @@ namespace Disconnected_Environment
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
             this.Text = "Form1";
-            
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
